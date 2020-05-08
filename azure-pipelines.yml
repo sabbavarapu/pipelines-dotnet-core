@@ -44,7 +44,6 @@ steps:
     custom: tool
     arguments: 'install -g dotnetsay'
 
-steps
 # ...
 # do this near the end of your pipeline in most cases
 - script: dotnet pack /p:PackageVersion=$(version)  # define version variable elsewhere in your pipeline
